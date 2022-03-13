@@ -1,0 +1,50 @@
+.accordion {
+
+  &.js {
+    .accordion-section-header {
+      &:hover {
+        color: $secondary-color;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+
+  display: block;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid $white;
+
+  .accordion-section {
+    border-top: 1px solid $white;
+  }
+
+  .accordion-section-header {
+    position: relative;
+    padding: 1.2rem 0;
+  }
+
+  h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    button {
+
+      &[aria-expanded='true'] {
+        .vert { display: none; }
+      }
+      all: inherit;
+
+      svg {
+        fill: $white;
+        float: right;
+        position: absolute;
+        right: 0;
+      }
+
+      &:focus-visible {
+        background-color: $tertiary-color;
+      }
+    }
+  }
+
+}

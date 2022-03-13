@@ -1,0 +1,20 @@
+/* ----- Images ----- */
+
+.greyscale {
+  filter: grayscale(100%);
+  transition-duration: filter .3s;
+
+  &:hover {
+    filter: grayscale(0%);
+  }
+}
+
+.img-box {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+// .portrait-img {
+//
+// }

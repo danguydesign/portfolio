@@ -1,0 +1,45 @@
+[26-Feb-2022 11:42:44 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:44:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:44:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 30
+[26-Feb-2022 11:45:52 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:45:52 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 30
+[26-Feb-2022 11:46:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:46:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 30
+[26-Feb-2022 11:46:15 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:46:15 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 30
+[26-Feb-2022 11:46:32 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:46:32 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 30
+[26-Feb-2022 11:46:34 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:46:34 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 30
+[26-Feb-2022 11:47:44 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 30
+[26-Feb-2022 11:57:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /Applications/MAMP/htdocs/portfolio/inc/functions.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/inc/functions.php(26): baseUrl()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:57:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /Applications/MAMP/htdocs/portfolio/inc/functions.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/inc/functions.php(26): baseUrl()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:57:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /Applications/MAMP/htdocs/portfolio/inc/functions.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/inc/functions.php(26): baseUrl()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 11:57:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /Applications/MAMP/htdocs/portfolio/inc/functions.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/inc/functions.php(26): baseUrl()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 15
+[26-Feb-2022 12:00:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_home_url() in /Applications/MAMP/htdocs/portfolio/inc/functions.php:44
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 44
+[26-Feb-2022 12:05:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /Applications/MAMP/htdocs/portfolio/inc/functions.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/inc/functions.php(30): baseUrl()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 16
+[26-Feb-2022 12:16:34 UTC] PHP Notice:  Undefined variable: first_part in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 24
+[26-Feb-2022 15:53:47 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 17

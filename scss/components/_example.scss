@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.example {
+  border: 1px solid $white;
+  border-radius: $radius;
+  padding: unit(4);
+  margin-bottom: 1.5rem;
+
+  .example-display {
+    margin-left: - unit(4);
+    margin-right: - unit(4);
+    border-bottom: 1px solid $white;
+
+    @include break(s){
+      padding: unit(4) unit(4) 0;
+    }
+  }
+
+  .example-code {
+
+    @include break(s){
+      margin: unit(4);
+    }
+
+    figcaption {
+      padding: unit(4) 0;
+    }
+
+    pre {
+      font-family: 'Source Code Pro', monospace;
+      padding: 0 unit(4);
+      border: 2px solid $dark-grey;
+      border-radius: 5px;
+      color: $grey;
+      background-color: #000;
+      overflow: auto;
+      &:focus-visible {
+        color: $tertiary-color;
+        border-color: $tertiary-color;
+        code {
+          color: $tertiary-color;
+        }
+      }
+
+      code {
+        display: inline-block;
+        font-family: inherit;
+        overflow: auto;
+        span {
+          font-family: inherit;
+        }
+      }
+    }
+  }
+
+
+
+
+}

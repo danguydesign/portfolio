@@ -1,0 +1,62 @@
+// Media queries
+@mixin break($point) {
+  @if $point == s {
+    @media (min-width: 768px) { @content; }
+  }
+  @else if $point == m {
+    @media (min-width: 1024px) { @content; }
+  }
+  @else if $point == l {
+    @media (min-width: 1344px)  { @content; }
+  }
+  @else if $point == xl {
+    @media (min-width: 1700px)  { @content; }
+  }
+  @else if $point == xxl {
+    @media (min-width: 2000px)  { @content; }
+  }
+  @else if $point == xs {
+    @media (max-width: 300px) { @content; }
+  }
+}
+
+// Flex
+@mixin flex($direction) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  @if $direction == column {
+ -webkit-flex-direction:vertical;
+ -moz-flex-direction:vertical;
+ -ms-flex-direction:column;
+ -webkit-flex-direction:column;
+ flex-direction:column;
+ }
+ @else {
+ -webkit-flex-direction:horizontal;
+ -moz-flex-direction:horizontal;
+ -ms-flex-direction:row;
+ -webkit-flex-direction:row;
+ flex-direction:row;
+ }
+}
+
+// Text size
+@mixin text-size(){
+  font-size: 16px;
+  @include break(s){
+    font-size: 18px;
+  }
+  @include break(m){
+    font-size: 20px;
+  }
+  @include break(l){
+    font-size: 21px;
+  }
+  @include break(xl){
+    font-size: 22px;
+  }
+
+}

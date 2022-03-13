@@ -1,0 +1,98 @@
+// Colors
+$primary-color: rgba(250, 155, 155, 1);
+$secondary-color: #96ccff;
+$tertiary-color: #f7e98d;
+$white: #eeeeee;
+$black: #121212;
+$grey: #bbbbbb;
+$light-black: #1a1a1a;
+$light-grey: #f6f6f6;
+$dark-grey: #333333;
+$charcoal: #222222;
+
+// Status
+$success: #4dd16c;
+$error: #fa5448;
+
+// Fonts
+$sans-serif: 'DM Sans', Helvetica, Verdana, sans-serif;
+$serif: 'PT Serif', Georgia, serif;
+
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+// Spacing
+$baseUnit: 5px;
+$spacing-1: 20px;
+$spacing-2: 40px;
+
+// Shadow
+$shadow: 0 5px 15px rgba(0, 0, 0, .4);
+$shadow-s: 0 3px 8px rgba(0, 0, 0, .4);
+$hadow-hov: 0 10px 30px rgba(0, 0, 0, .4);
+
+// Units
+$base: 5px;
+@function unit($x){
+  $result: $x * $base;
+  @return $result;
+}
+
+// Radius
+$radius: unit(4);
+
+// Layout
+$max-width: 1000px;
+
+@charset "UTF-8";
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+
+// Settings
+// ==================================================
+
+$hamburger-layer-width         : 30px !default;
+$hamburger-layer-height        : 2px !default;
+$hamburger-layer-spacing       : 6px !default;
+$hamburger-layer-color         : #000 !default;
+$hamburger-layer-border-radius : 0px !default;
+$hamburger-hover-opacity       : 0.7 !default;
+$hamburger-active-layer-color  : $hamburger-layer-color !default;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity !default;
+
+// To use CSS filters as the hover effect instead of opacity,
+// set $hamburger-hover-use-filter as true and
+// change the value of $hamburger-hover-filter accordingly.
+$hamburger-hover-use-filter   : false !default;
+$hamburger-hover-filter       : opacity(50%) !default;
+$hamburger-active-hover-filter: $hamburger-hover-filter !default;
+
+// Types (Remove or comment out what you don’t need)
+// ==================================================
+$hamburger-types: (
+  squeeze
+) !default;
+
+
+// ==================================================
+// Cooking up additional types:
+//
+// The Sass for each hamburger type should be nested
+// inside an @if directive to check whether or not
+// it exists in $hamburger-types so only the CSS for
+// included types are generated.
+//
+// e.g. hamburgers/types/_new-type.scss
+//
+// @if index($hamburger-types, new-type) {
+//   .hamburger--new-type {
+//     ...
+//   }
+// }
