@@ -1,6 +1,4 @@
 <?php
-include "inc/cards0.php";
-
 $page = "blog";
 $title = "Dan Guy Design | Blog";
 $metaD = "";
@@ -47,6 +45,7 @@ $interviews[] = [
 ];
 
 include 'inc/header.php';
+include "inc/cards.php";
 ?>
 
 <header class="header header-small">
@@ -60,11 +59,7 @@ include 'inc/header.php';
     <h2 class="heading-2 margin-0">Blogs</h2>
   </div>
   <div class="block padding-responsive">
-      <?php
-      //$cards = $blogs;
-      //include 'inc/cards.php';
-      echo create_cards($blogs, 'cards-4');
-      ?>
+      <?php echo create_cards($blogs, 'cards-4'); ?>
   </div>
 </section>
 
@@ -73,11 +68,7 @@ include 'inc/header.php';
     <h2 class="heading-2 margin-0">Interviews</h2>
   </div>
   <div class="block padding-responsive">
-      <?php
-      // $cards = $interviews;
-      // include 'inc/cards.php';
-      echo create_cards($interviews, 'cards-4');
-      ?>
+      <?php echo create_cards($interviews, 'cards-4'); ?>
   </div>
 </section>
 

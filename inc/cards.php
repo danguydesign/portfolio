@@ -1,52 +1,58 @@
 <?php
-if (isset($cards)) {
-  //echo '<ul class="cards">';
-  foreach($cards as $card) {
-?>
-    <li class="card">
+function create_cards($cards, $cols = 'cards-4') {
+    $out = '';
+    if (isset($cards)) {
+      $out .= '<ul class="cards ' . $cols . '">';
 
-        <?php if (isset($card['img'])) {?>
-        <div class="image-box">
-          <img src="<?php echo $card['img'] ?>" class="" alt="<?php echo $card['alt'] ?>">
-        </div>
-        <?php } ?>
+      foreach($cards as $card) {
 
-        <div class="text-box padding-double">
+        $out .= '<li class="card">';
 
-          <?php if (isset($card['date'])) {?>
-          <time class="coral-text"><?php echo $card['date'] ?></time>
-          <?php } ?>
+        if (isset($card['img'])) {
+          $out .= '
+            <div class="image-box">
+              <img src="' . $card['img'] . '" class="" alt="' . $card['alt'] . '">
+            </div>';
+        }
 
-          <?php if (isset($card['title'])) {?>
-          <h3 class="heading-3 margin-top-0">
-            <?php
-              if (isset($card['href'])) {
-                echo '<a href="' . $card['href'] . '">';
-              }
-              echo $card['title'];
-              if (isset($card['href'])) {
-                echo '</a>';
-              }
-            ?>
-          </h3>
-          <?php } ?>
+        $out .= '<div class="text-box padding-double">';
 
-          <?php if (isset($card['text'])) {?>
-          <p class="margin-bottom-0"><?php echo substr($card['text'], 0, 145) . (strlen($card['text']) >= 145 ? '…' : ''); ?></p>
-          <?php } ?>
+        if (isset($card['date'])) {
+          $out .= '<time class="coral-text">' . $card['date'] .  '</time>';
+        }
 
-          <?php if (isset($card['bullets'])) {?>
-          <ul class="ul margin-bottom-0">
-            <?php foreach($card['bullets'] as $bullet) {
-            echo "<li>" . $bullet . "</li>";
-             } ?>
-          </ul>
-          <?php } ?>
-        </div>
+        if (isset($card['title'])) {
+          $out .= '<h3 class="heading-3 margin-top-0">';
 
-    </li>
-<?php
-    }
-    //echo '</ul>';
-  }
+          if (isset($card['href'])) {
+            $out .= '<a href="' . $card['href'] . '">';
+          }
+          $out .= $card['title'];
+          if (isset($card['href'])) {
+            $out .= '</a>';
+          }
+
+          $out .= '</h3>';
+        }
+
+        if (isset($card['text'])) {
+          $out .= '<p class="margin-bottom-0">'; $out .= substr($card['text'], 0, 145); $out .= (strlen($card['text']) >= 145 ? '…' : ''); $out .= '</p>';
+        }
+
+        if (isset($card['bullets'])) {
+          $out .= '<ul class="ul margin-bottom-0">';
+          foreach($card['bullets'] as $bullet) {
+            $out .= "<li>" . $bullet . "</li>";
+          }
+          $out .=  '</ul>';
+        }
+        $out .= '</div>';
+
+        $out .= '</li>';
+        }
+      }
+      $out .= '</ul>';
+
+      return $out;
+}
 ?>

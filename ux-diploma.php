@@ -57,7 +57,7 @@ ob_start();?>
 
   <h4 class="heading-4">Testing Sessions</h4>
   <div class="image-box">
-    <img src="img/projects/research/usability-testing.jpg" class="">
+    <img src="img/projects/research/usability-testing.jpg" alt="Two computers set up in a room for usability testing">
   </div>
 
   <h3 id="interview" class="heading-3">Depth Interviews</h3>

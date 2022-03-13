@@ -1,22 +1,32 @@
 <?php
-if (isset($accordion)) {
-  echo '<div class="accordion">';
-  foreach($accordion as $item) {
-?>
+function create_accordion($accordion) {
+  $html = '';
+  if (isset($accordion)) {
+    $html .= '<div class="accordion">';
+    foreach($accordion as $item) {
 
-    <div class="accordion-section">
+    $html .=  '<div class="accordion-section">
 
-      <div class="accordion-section-header">
-        <h2 class="accordion-heading heading-3"><?php if (isset($item['title'])) { echo $item['title']; }?></h2>
-      </div>
-      <div class="accordion-section-body">
-        <p><?php if (isset($item['text'])) { echo $item['text']; }?></p>
-      </div>
+        <div class="accordion-section-header">
+          <h2 class="accordion-heading heading-3">';
+          if (isset($item['title'])) {
+            $html .= $item['title'];
+          }
+    $html .= '</h2>
+        </div>
+        <div class="accordion-section-body">
+          <p>';
+          if (isset($item['text'])) {
+            $html .= $item['text']; 
+          }
+    $html .= '</p>
+        </div>
 
-    </div>
+      </div>';
 
-<?php
+    }
+    $html .= '</div>';
   }
-  echo '</div>';
+  return $html;
 }
 ?>

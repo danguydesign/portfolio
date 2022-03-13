@@ -2,7 +2,7 @@
   <div class="container">
     <div class="col-third col-padding-left">
       <div class="page-nav radius fixed shadow">
-        <h2 class="heading-2 margin-top-0">Index</h2>
+        <h2 class="heading-2 margin-top-0">Contents</h2>
         <ul class="list-type-none list-spaced">
           <?php foreach($pageNav as $item) {?>
             <li>

@@ -1,5 +1,6 @@
 <?php
-include 'inc/cards0.php';
+include 'inc/cards.php';
+include 'inc/accordion.php';
 
 $page = "design-system";
 $title = "Design system";
@@ -25,29 +26,20 @@ ob_start();?>
 
 <h2 id="accordion" class="heading-2">Accordion</h2>
 
-<div class="example">
-  <div class="example-display">
+<?php
+$accordion = [];
+$accordion[] = [
+  "title" => "Accordion heading 1",
+  "text" => "Accordion content to be expanded"
+];
+$accordion[] = [
+  "title" => "Accordion heading 2",
+  "text" => "Accordion content to be expanded"
+];
+$component = '<div class="padding padding-top-0">' . create_accordion($accordion) . '</div>';
 
-    <div class="padding padding-top-0">
-      <?php
-      $accordion = [];
-      $accordion[] = [
-        "title" => "Accordion heading 1",
-        "text" => "Accordion content to be expanded"
-      ];
-      $accordion[] = [
-        "title" => "Accordion heading 2",
-        "text" => "Accordion content to be expanded"
-      ];
-      include 'inc/accordion.php';
-      ?>
-    </div>
-
-  </div>
-  <div class="example-code">
-    <figure>
-      <figcaption>HTML</figcaption>
-      <pre tabindex="0"><code>
+$html = '
+<pre tabindex="0"><code>
 &lt;div class="accordion"&gt;
 
   &lt;div class="accordion-section"&gt;
@@ -69,10 +61,12 @@ ob_start();?>
   &lt;/div&gt;
 
 &lt;/div&gt;
-        </code></pre>
-    </figure>
-  </div>
-</div>
+
+</code></pre>
+';
+
+include 'inc/example.php';
+?>
 
 
 <h2 id="cards" class="heading-2">Cards</h2>
@@ -93,25 +87,25 @@ $component = create_cards($cards, 'cards-2');
 
 $html = '
 <pre tabindex="0"><code>
-  &lt;ul class="cards cards-2"&gt;
+&lt;ul class="cards cards-2"&gt;
 
-    &lt;li class="card"&gt;
-      &lt;div class="text-box padding-double"&gt;
-        &lt;time class="coral-text"&gt;27 September 2021&lt;/time&gt;
-        &lt;h3 class="heading-3 margin-top-0"&gt;Card 1 title&lt;/h3&gt;
-        &lt;p class="margin-bottom-0"&gt;Card 1 paragraph text goes here.&lt;/p&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
+  &lt;li class="card"&gt;
+    &lt;div class="text-box padding-double"&gt;
+      &lt;time class="coral-text"&gt;27 September 2021&lt;/time&gt;
+      &lt;h3 class="heading-3 margin-top-0"&gt;Card 1 title&lt;/h3&gt;
+      &lt;p class="margin-bottom-0"&gt;Card 1 paragraph text goes here.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
 
-    &lt;li class="card"&gt;
-      &lt;div class="text-box padding-double"&gt;
-        &lt;time class="coral-text"&gt;27 September 2021&lt;/time&gt;
-        &lt;h3 class="heading-3 margin-top-0"&gt;Card 2 title&lt;/h3&gt;
-        &lt;p class="margin-bottom-0"&gt;Card 2 paragraph text goes here.&lt;/p&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
+  &lt;li class="card"&gt;
+    &lt;div class="text-box padding-double"&gt;
+      &lt;time class="coral-text"&gt;27 September 2021&lt;/time&gt;
+      &lt;h3 class="heading-3 margin-top-0"&gt;Card 2 title&lt;/h3&gt;
+      &lt;p class="margin-bottom-0"&gt;Card 2 paragraph text goes here.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
 
-  &lt;/ul&gt;
+&lt;/ul&gt;
 
 </code></pre>
 ';
@@ -140,22 +134,22 @@ $component = '
 ';
 $html = '
 <pre tabindex="0"><code>
-  &lt;div class="padding padding-top-0 padding-bottom-0"&gt;
-    &lt;span class="notification error"&gt;
+&lt;div class="padding padding-top-0 padding-bottom-0"&gt;
+  &lt;span class="notification error"&gt;
 
-      &lt;h3 class="margin-bottom-2"&gt;&lt;span class="visually-hidden"&gt;Error:&lt;/span&gt; There was a problem!&lt;/h3&gt;
+    &lt;h3 class="margin-bottom-2"&gt;&lt;span class="visually-hidden"&gt;Error:&lt;/span&gt; There was a problem!&lt;/h3&gt;
 
-      &lt;ul class="list-type-none"&gt;
-        &lt;li class="menu-item"&gt;
-          &lt;a class="underline" href=""&gt;Name is required&lt;/a&gt;
-        &lt;/li&gt;
-        &lt;li class="menu-item"&gt;
-          &lt;a class="underline" href=""&gt;Email is required&lt;/a&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
+    &lt;ul class="list-type-none"&gt;
+      &lt;li class="menu-item"&gt;
+        &lt;a class="underline" href=""&gt;Name is required&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="menu-item"&gt;
+        &lt;a class="underline" href=""&gt;Email is required&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
 
-    &lt;/span&gt;
-  &lt;/div&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
 
 </code></pre>
 ';
