@@ -29,9 +29,9 @@ $spacing-1: 20px;
 $spacing-2: 40px;
 
 // Shadow
-$shadow: 0 5px 15px rgba(0, 0, 0, .4);
-$shadow-s: 0 3px 8px rgba(0, 0, 0, .4);
-$hadow-hov: 0 10px 30px rgba(0, 0, 0, .4);
+$shadow: 0 5px 15px rgba(0, 0, 0, .5);
+$shadow-s: 0 3px 8px rgba(0, 0, 0, .5);
+$hadow-hov: 0 10px 30px rgba(0, 0, 0, .5);
 
 // Units
 $base: 5px;
@@ -44,7 +44,7 @@ $base: 5px;
 $radius: unit(4);
 
 // Layout
-$max-width: 1000px;
+$max-width: 900px;
 
 @charset "UTF-8";
 /*!

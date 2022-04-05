@@ -4,17 +4,49 @@
   box-sizing: border-box;
 }
 
-.js .navbar {
-  // @include break(xs) {
-  //   position: relative;
-  // }
-  position: fixed;
-  //overflow-y: scroll;
+.js {
+  .navbar {
+    @include break(xs) {
+      .svg {
+        display: none;
+      }
+    }
+    position: fixed;
+    &.open {
+      height: 100vh;
+      overflow-y: scroll;
+
+      #menu{
+        right: 0;
+        overflow-y: scroll;
+        transition-timing-function: ease-out;
+        height: auto;
+        margin-bottom: auto;
+      }
+    }
+  }
+
+  #menu {
+    padding-top: 20px;
+    position: absolute;
+    top: auto;
+    right: -100%;
+    height: 100vh;
+    transition: right 0.3s;
+    transition-timing-function: ease-in;
+    @include break(m) {
+      padding-top: 0;
+      top: 0;
+      right: 0;
+      transition: none;
+    }
+  }
+
 }
 
 .navbar {
   @include flex(row);
-  //flex-wrap: wrap;
+  //position: relative;
   justify-content: space-between !important;
   align-items: flex-start;
   background-color: $black;
@@ -36,6 +68,7 @@
     .svg {
       width: 30px;
       height: 30px;
+      margin-right: 20px;
     }
 
     .logo {
@@ -45,7 +78,6 @@
     .logo__text {
       flex-grow: 1;
       font-size: 22px;
-      margin-left: 20px;
       line-height: 1;
     }
 
@@ -78,12 +110,12 @@
   align-items: center;
   background-color: $black;
   width: 100%;
-  padding: 0 unit(4);
+  padding: 0 unit(4) unit(4);
   margin: 0;
   overflow: hidden;
 
   @include break(s) {
-    padding: 0 unit(8);
+    padding: 0 unit(8) unit(8);
   }
 
   @include break(m) {
@@ -93,7 +125,6 @@
     right: 0;
     width: auto;
     height: 113px !important;
-    transform: translateX(0) !important;
     opacity: 1;
     transition: width 0s;
     padding: 0 25px;
@@ -164,34 +195,6 @@
   &:hover {
     color: $secondary-color !important;
   }
-}
-
-.js #menu.open {
-  transform: translateX(0) !important;
-  overflow-y: scroll;
-  transition-timing-function: ease-out;
-}
-
-.js #menu {
-  padding-top: 20px;
-  position: absolute;
-  top: auto;
-  right: 0;
-  height: calc(100vh - 70px);
-  transform: translateX(100%);
-  transition: transform 0.4s;
-  transition-timing-function: ease-in;
-  z-index: -1;
-
-  @include break(s) {
-    height: calc(100vh - 110px);
-  }
-
-  @include break(m) {
-    padding-top: 0;
-    top: 0;
-  }
-
 }
 
 .icon {

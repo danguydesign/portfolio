@@ -31,15 +31,13 @@ function trapFocus(element) {
   element.addEventListener('keydown', function(e) {
     var isTabPressed = (e.key === 'Tab' || e.keyCode === KEYCODE_TAB);
 
-    const open = menu.className.includes( "open" );
+    const open = header.className.includes( "open" );
     if (!open) {
       return;
     }
-
     if (!isTabPressed) {
       return;
     }
-
     if ( e.shiftKey ) /* shift + tab */ {
       if (document.activeElement === firstFocusableEl) {
         lastFocusableEl.focus();
@@ -72,7 +70,7 @@ function includeFocus(element) {
 
 // Set focus behaviour on nav
 function setMenuFocus() {
-  const open = menu.className.includes( "open" );
+  const open = header.className.includes( "open" );
   if ( !open && window.innerWidth < 1025 ) {
     excludeFocus(menu);
     return "excluded"
@@ -90,7 +88,7 @@ function setAria() {
     navBtn.setAttribute("aria-controls", "menu");
     menu.setAttribute( 'aria-labelledby', "hamburger" )
     navBtn.ariaHidden = false;
-    const open = menu.className.includes( "open" );
+    const open = header.className.includes( "open" );
     open ? navBtn.ariaExpanded = true : navBtn.ariaExpanded = false ;
 
   } else {
@@ -104,8 +102,9 @@ function setAria() {
 
 // Nav open-close
 function openCloseNav() {
-  menu.classList.toggle( "open" );
   body.classList.toggle('no-scroll');
+  //menu.classList.toggle( "open" );
+  header.classList.toggle( "open" );
   setAria();
   setMenuFocus();
   trapFocus(header);
@@ -131,7 +130,7 @@ header.addEventListener('keydown', function(e) {
   var KEYCODE_ESC = 27;
   var isEscPressed = (e.key === 'Escape' || e.keyCode === KEYCODE_ESC);
   if(isEscPressed) {
-    if (menu.className.includes( "open" )) {
+    if (header.className.includes( "open" )) {
       openCloseNav();
     }
   }
@@ -142,7 +141,7 @@ window.onresize = function(event) {
   setAria();
   setMenuFocus();
   if (window.innerWidth >= 1025) {
-    if (menu.className.includes( "open" )) {
+    if (header.className.includes( "open" )) {
       openCloseNav();
     }
   }
@@ -166,8 +165,7 @@ Array.prototype.forEach.call(cards, card => {
     let down, up, link = card.querySelector('h3 a');
     if (link) {
       let initial = card.style.background;
-      card.onmouseover = () => card.classList.add('hover');
-      card.onmouseout = () => card.classList.remove('hover');
+      card.classList.add('haslink');
       card.onmousedown = () => down = +new Date();
       card.onmouseup = () => {
           up = +new Date();
@@ -197,14 +195,14 @@ Array.prototype.forEach.call(cards, card => {
     heading.innerHTML = `
       <button aria-expanded="false">
         ${heading.textContent}
-        <svg class="svg" aria-hidden="true" focusable="false" viewBox="0 0 10 10" width="30px">
-          <rect class="vert" height="8px" width="1px" y="1" x="4.5"/>
-          <rect height="1px" width="8px" y="4.5" x="1"/>
+        <svg class="svg" width="21" height="21" viewBox="0 0 21 21" aria-hidden="true" focusable="false">
+          <rect class="vert" height="21" width="3" y="0" x="9"/>
+          <rect class="hori" height="3" width="21" y="9" x="0"/>
         </svg>
       </button>`;
 
     // Get wrapper element for `contents` and hide it
-    let wrapper = heading.parentElement.nextElementSibling.firstElementChild;
+    let wrapper = heading.parentElement.nextElementSibling;
     wrapper.setAttribute('hidden', true);
 
     // Assign the button

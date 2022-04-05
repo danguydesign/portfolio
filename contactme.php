@@ -107,7 +107,7 @@ function test_input($data) {
     <div class="sub-container">
       <section class="col-third">
         <div class="text-box-2">
-          <p class="large-p weight400">Thanks for stopping by. If you'd like to get in touch, just ping me an email by filling out this form:</p>
+          <p class="massive-p">Thanks for stopping by. If you'd like to get in touch, just ping me an email by filling out this form:</p>
         </div>
       </section>
 

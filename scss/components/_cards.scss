@@ -82,13 +82,13 @@
     }
   }
 
-  &.hover {
-    cursor: pointer;
-    box-shadow: $hadow-hov;
-    background-color: $charcoal;
-    a {
-        color: $secondary-color;
-      }
-  }
+}
 
+.haslink:hover {
+  cursor: pointer;
+  box-shadow: $hadow-hov;
+  background-color: $charcoal;
+  a {
+      color: $secondary-color;
+    }
 }

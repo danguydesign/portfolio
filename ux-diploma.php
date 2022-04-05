@@ -68,16 +68,16 @@ ob_start();?>
 
   <div class="x-scroll-container">
     <div class="x-img-container">
-      <img src="img/projects/research/competitive-benchmarking-1.png" class="x-img">
+      <img src="img/projects/research/competitive-benchmarking-1.png" class="x-img" alt="Analysis of Delta Air journey for buying a plane ticket">
     </div>
     <div class="x-img-container">
-      <img src="img/projects/research/competitive-benchmarking-2.png" class="x-img">
+      <img src="img/projects/research/competitive-benchmarking-2.png" class="x-img" alt="Analysis of British Airways journey for buying a plane ticket">
     </div>
     <div class="x-img-container">
-      <img src="img/projects/research/competitive-benchmarking-3.png" class="x-img">
+      <img src="img/projects/research/competitive-benchmarking-3.png" class="x-img" alt="Analysis of Norwegian Air journey for buying a plane ticket">
     </div>
     <div class="x-img-container">
-      <img src="img/projects/research/competitive-benchmarking-4.png" class="x-img">
+      <img src="img/projects/research/competitive-benchmarking-4.png" class="x-img" alt="Analysis of Skyscanner journey for buying a plane ticket">
     </div>
   </div>
 
@@ -85,7 +85,7 @@ ob_start();?>
   <p>I created an online survey using Survey Monkey for some more quantitative-attitudinal research to gain more understanding into context of use. I used a mixture of open and closed questions as well as some multiple choice questions. The survey would take around 2-3 minutes for people to complete.</p>
 
   <div class="image-box">
-    <img src="img/projects/research/online-survey.jpg" class="img-right">
+    <img src="img/projects/research/online-survey.jpg" class="img-right" alt="First question from Survey Monkey survey">
   </div>
 
   <hr>
@@ -97,10 +97,10 @@ ob_start();?>
 
   <div class="x-scroll-container">
     <div class="x-img-container">
-      <img src="img/projects/analysis/postits-2.jpg" class="x-img">
+      <img src="img/projects/analysis/postits-2.jpg" class="x-img" alt="My colleague sorting postits on a glass office wall">
     </div>
     <div class="x-img-container">
-      <img src="img/projects/analysis/postits-5.jpg" class="x-img">
+      <img src="img/projects/analysis/postits-5.jpg" class="x-img" alt="Me sorting postits on a glass office wall">
     </div>
   </div>
 
@@ -108,14 +108,14 @@ ob_start();?>
   <p>I took the information from the affinity diagram and organised it into a step by step view of the journey to show how the users felt at each stage. I also noted their goals, behaviour, context and pain points at each step.</p>
 
   <div class="image-box">
-    <img src="img/projects/analysis/Customer-Journey-Map.png" class="img-right">
+    <img src="img/projects/analysis/Customer-Journey-Map.png" class="img-right" alt="Steps of a user journey plotted as a chart with goals, behaviour and pain-points listed underneath">
   </div>
 
   <h3 id="empathy" class="heading-3">Empathy Map</h3>
   <p>Finally, I created an empathy map showing the user’s goals along with what they say, think, feel and do, since sometime what people say isn’t always reflected by what they do. This helped me to empathise with the user, to gain a greater understanding of context of use, and to add to my background information of typical users.</p>
 
   <div class="image-box">
-    <img src="img/projects/analysis/Empathy-map.gif" class="img-left">
+    <img src="img/projects/analysis/Empathy-map.gif" class="img-left" alt="research insights sorted into urser goals, what people said, what users thought, what users felt and what they did">
   </div>
 
   <h3 id="findings" class="heading-3">Key Findings</h3>
@@ -221,7 +221,7 @@ ob_start();?>
 
   <h2 id="prototype" class="heading-2">Phase 4: Prototype & Wireframe</h2>
 
-  <h3 id="prototype" class="heading-3">Medium Fidelity Prototype</h3>
+  <h3 class="heading-3">Medium Fidelity Prototype</h3>
   <p>After sketching each screen state, I could than design each screen state in medium fidelity form to create a prototype. This prototype could then be fed back into a testing / validation phase and iterated over time for improvements.</p>
 
   <div class="image-box">

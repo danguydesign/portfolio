@@ -1,25 +1,25 @@
 <?php
-$page = "mobile-optimisation";
-$title = "Ecommerce Usability";
+$page = "ecommerce-usability";
+$title = "E-commerce Usability";
 $metaD = "";
 $h1 = $title;
 
 $pageNav = [];
 $pageNav[] = [
   "href" => "#research",
-  "item" => "Phase 1: Research"
+  "item" => "Research"
 ];
 $pageNav[] = [
   "href" => "#analysis",
-  "item" => "Phase 2: Analysis"
+  "item" => "Analysis"
 ];
 $pageNav[] = [
   "href" => "#design",
-  "item" => "Phase 3: Design"
+  "item" => "Design"
 ];
 $pageNav[] = [
   "href" => "#iterate",
-  "item" => "Phase 4: Iteration"
+  "item" => "Iteration"
 ];
 $pageNav[] = [
   "href" => "#impact",
@@ -28,34 +28,48 @@ $pageNav[] = [
 
 ob_start();?>
 
-<h2 id="intro" class="heading-2">Introduction</h2>
+<h2 id="intro" class="heading-2">Objective</h2>
 
-<p class="large-p">The aim of this project was to identify and remove sticking points and bugs within the product purchasing journey on mobile.</p>
+<p class="large-p">Improve usability of an e-commerce website to drive conversion and revenue.</p>
 
 <!--- Research --->
 <h2 id="research" class="heading-2">Research</h3>
 
 <h3 class="heading-3">Objectives</h3>
 <ol class="ol">
-  <li>Identify typical sticking points within the mobile product purchasing journey.</li>
-  <li>Discover best practices and competitor solutions to product editor software.</li>
-  <li>Improve usability of website and product editor.</li>
-  <li>Check for bugs in Chrome, Firefox, Safari and Edge.</li>
-  <li>Improve conversion rate and revenue.</li>
+  <li>Identify typical sticking points within the mobile product purchasing journey</li>
+  <li>Discover best practices and competitor solutions to product editor software</li>
+  <li>Improve usability of website and product editor</li>
+  <li>Check for bugs in Chrome, Firefox, Safari and Edge</li>
+  <li>Improve conversion rate to drive revenue</li>
 </ol>
 
 <h3 class="heading-3">UX Walkthough</h3>
-<p>Since the team was aware of a number of issues at various points in the buying journey, we started the project with a UX walkthrough. The group consisted of six people: myself; a developer; a marketing manager; two customer support workers; and a note taker. We mapped out some typical user journeys, four in total, consisting of our two most popular product categories with one variation of each using page links to proceed through the steps, and one using only navigation menu links. We proceeded in unison looking for bugs and usability issues while the note taker logged issues.</p>
-<p><strong>Devices used included:</strong> an iPhone 5s; an iPhone 6s; an iPhone Xr; a Samsung J5; and a Samsung J5.</p>
-
 <div class="image-box">
   <img src="img/mobile-conversion/mobile-conversion.jpg" class="img-right">
 </div>
 
+<p>We started the project with a team UX walkthrough. The group included six people and a note taker.</p>
+<p>We mapped some common journeys using a mixture of links and the navigation to navigate through the site. We proceeded together looking for bugs and issues while the note taker logged issues.</p>
+<p><strong>Devices used included:</strong> an iPhone 5s; an iPhone 6s; an iPhone Xr; a Samsung J5; and a Samsung J5.</p>
+
+<h3 class="heading-3">Usability testing</h3>
+
+<div class="image-box">
+  <img src="img/research-img/usability-testing.jpg" class="img-right">
+</div>
+<p>I conducted six rounds of usability testing with participants recruited through an agency. I wrote a script and prepared two tasks to take each participant through.</p>
+<p>Task one was to choose a product from our wall-art category, and add a photo to it in our product editor. Task two was to repeat the same steps on a competitor website.</p>
+<p>Two key insights I gained were that:</p>
+<ol class="ol">
+  <li>users were getting stuck choosing between our online and downloadable product editors</li>
+  <li>there were too many features in the online editor—some of them rarely used</li>
+</ol>
+
 <h3 class="heading-3">Competitive Benchmarking</h3>
 
-<h4 class="heading-4">Product Page Header</h4>
-<p>I also did some research into best in class product page headers to identify design trends emerging across websites with lots of traffic. This included looking at: how product galleries work and what gestures they recognise; whether thumbnail images are used on mobile; where the price is located; and what kind of inputs are used.</p>
+<h4 class="heading-4">Product Page</h4>
+<p>I did some desk research into product pages to identify design trends emerging across websites with lots of traffic. I looked at how product galleries work, what gestures they recognise, whether they use thumbnail images, where the price is located and what kind of inputs are used.</p>
 
 <div class="x-scroll-container">
   <div class="x-img-container">
@@ -70,14 +84,16 @@ ob_start();?>
 </div>
 
 <h4 class="heading-4">Product Editor</h4>
-<p>Next, I did some research into how our immediate competitors had designed their product editors. Our editor had not been changed for quite some time and it was clear that we were making things more difficult for our users than they should be. All our competitors had product editors that fit onto a mobile screen without needing to scroll. Our editor needed at least two scroll gestures to get to the bottom of the editor. Our controls where stacked vertically so that you had to scroll down to edit the product, where as our competitors unanimously had their controls stacked horizontally so the product could be seen and edited at the same time.</p>
+<p>Next, I did some research into how our competitors had designed their product editors. Our editor had not been updated for quite some time and it was clear that we were making things harder for our users than they should be.</p>
+<p>All our competitors had product editors that fit onto a mobile screen without needing to scroll. Our editor needed at least two scroll gestures to get to the bottom of the editor. </p>
+<p>Our controls where stacked vertically so that you had to scroll down to edit the product. Our competitors all had their controls stacked horizontally so the product could be seen and edited at the same time.</p>
 
 <div class="image-box">
   <img src="img/mobile-conversion/product-editor.jpg" class="img-right">
 </div>
 
 <h3 class="heading-3">Analytics</h3>
-<p>I worked alongside an analyst to get some data from our site, including a fallout funnel showing both mobile and non-mobile data, and a table showing visits, orders, revenue and conversion rate. Two points in the journey that stood out to me where users dropping out at the product page and at the first step of the editor. The editor in particular had the highest fallout, so it was clear that this is where the majority of effort should be focused. We also compared this to desktop behaviour.</p>
+<p>I used Adobe Omniture to identify user behaviour and trends. Two points in the journey that stood out to me where users dropping out at the product page and at the first step of the editor. The editor in particular had the highest fallout, so it was clear that this is where the majority of effort should be focused.</p>
 
 <div class="image-box">
   <img src="img/mobile-conversion/fallout-charts.jpg" class="img-right">
@@ -90,7 +106,13 @@ ob_start();?>
 <h2 id="analysis" class="heading-2">Analysis</h2>
 
 <h3 class="heading-3">Customer Journey Map</h3>
-<p>I created a customer journey map based on the notes from the UX walkthrough. Given that we did not conduct usability tests with actual users, we had to make a few assumptions about what the user’s goals were, but since the scope of this project was to identify sticking points and bugs within the purchasing journey on mobile, we decided this was okay and would be addressed later on by conducting usability tests. The main focus of this customer journey map was the pain points.</p>
+<p>I created a customer journey map based on the notes from the UX walkthrough, usability testing and analytics. The main focus of this customer journey map was to understand the key moments of friction in the journey. Then I could focus my attention on improving those areas.</p>
+<p>The three main moments of friction I noticed were:</p>
+<ul class="ul">
+  <li>trying to locate the product category in the menu</li>
+  <li>being unable to understand what the product is like</li>
+  <li>editing the product due to too many features</li>
+</ul>
 
 <div class="image-box">
   <img src="img/mobile-conversion/customer-journey.gif" class="img-right">

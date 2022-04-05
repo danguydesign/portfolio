@@ -30,11 +30,11 @@ ob_start();?>
 $accordion = [];
 $accordion[] = [
   "title" => "Accordion heading 1",
-  "text" => "Accordion content to be expanded"
+  "text" => "<p>Accordion content to be expanded</p>"
 ];
 $accordion[] = [
   "title" => "Accordion heading 2",
-  "text" => "Accordion content to be expanded"
+  "text" => "<p>Accordion content to be expanded</p>"
 ];
 $component = '<div class="padding padding-top-0">' . create_accordion($accordion) . '</div>';
 

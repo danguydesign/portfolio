@@ -20,7 +20,11 @@ function getUrl() {
 // Test if sever or local
 function baseUrl() {
   if (strpos(getUrl(), "danguydesign.com")) {
-    $home = "https://danguydesign.com/";
+    if (isset($_SERVER['HTTPS'])) {
+      $home = "https://danguydesign.com/";
+    } else {
+      $home = "http://danguydesign.com/";
+    }
   } else {
     $home = "/portfolio/";
   }

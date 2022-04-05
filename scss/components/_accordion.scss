@@ -1,11 +1,12 @@
 .accordion {
 
   &.js {
-    .accordion-section-header {
-      &:hover {
-        color: $secondary-color;
-        text-decoration: underline;
-        cursor: pointer;
+    .accordion-section-header:hover {
+      color: $secondary-color;
+      text-decoration: underline;
+      cursor: pointer;
+      svg {
+        fill: $secondary-color;
       }
     }
   }
@@ -26,23 +27,27 @@
   h2, h3 {
     margin-top: 0;
     margin-bottom: 0;
+    display: flex;
+    align-items: center;
 
     button {
 
+      all: inherit;
+      margin-right: 40px;
       &[aria-expanded='true'] {
         .vert { display: none; }
       }
-      all: inherit;
+      &:focus-visible {
+        background-color: $tertiary-color;
+        text-decoration: underline;
+      }
 
       svg {
         fill: $white;
-        float: right;
         position: absolute;
         right: 0;
-      }
-
-      &:focus-visible {
-        background-color: $tertiary-color;
+        width: 1.3rem;
+        height: 1.3rem;
       }
     }
   }
