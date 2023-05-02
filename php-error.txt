@@ -901,3 +901,810 @@ Stack trace:
 [05-Apr-2022 18:38:03 UTC] PHP Fatal error:  Cannot redeclare create_cards() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/cards.php:2) in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 2
 [05-Apr-2022 18:38:34 UTC] PHP Fatal error:  Cannot redeclare create_cards() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/cards.php:2) in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 2
 [05-Apr-2022 18:38:36 UTC] PHP Fatal error:  Cannot redeclare create_cards() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/cards.php:2) in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 2
+[08-Apr-2022 16:27:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Applications/MAMP/htdocs/portfolio/index.php on line 75
+[08-Apr-2022 16:28:27 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:28:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:28:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:29:23 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:29:25 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:29:46 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:29:47 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:29:57 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:29:58 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:29:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:30:34 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:30:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:30:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:30:35 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:30:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:30:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:30:36 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:30:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:30:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:31:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/portfolio/inc/dbh.php on line 8
+[08-Apr-2022 16:31:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:31:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:38:38 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/portfolio/inc/dbh.php on line 8
+[08-Apr-2022 16:38:38 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:38:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:42:05 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=19234 in /Applications/MAMP/htdocs/portfolio/inc/dbh.php on line 8
+[08-Apr-2022 16:42:05 UTC] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /Applications/MAMP/htdocs/portfolio/inc/dbh.php on line 8
+[08-Apr-2022 16:42:05 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:42:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:42:12 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=19253 in /Applications/MAMP/htdocs/portfolio/inc/dbh.php on line 8
+[08-Apr-2022 16:42:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /Applications/MAMP/htdocs/portfolio/inc/dbh.php on line 8
+[08-Apr-2022 16:42:12 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:42:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[08-Apr-2022 16:46:22 UTC] PHP Notice:  Undefined variable: mysqli in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:46:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 69
+[08-Apr-2022 16:46:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/index.php on line 70
+[18-Apr-2022 10:39:22 UTC] PHP Notice:  Undefined variable: h1 in /Applications/MAMP/htdocs/portfolio/experiment.php on line 9
+[18-Apr-2022 10:40:48 UTC] PHP Notice:  Undefined variable: h1 in /Applications/MAMP/htdocs/portfolio/experiment.php on line 8
+[18-Apr-2022 10:40:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_accordion() in /Applications/MAMP/htdocs/portfolio/experiment.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/experiment.php on line 29
+[18-Apr-2022 10:41:29 UTC] PHP Notice:  Undefined variable: h1 in /Applications/MAMP/htdocs/portfolio/experiment.php on line 8
+[18-Apr-2022 10:41:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_accordion() in /Applications/MAMP/htdocs/portfolio/experiment.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/experiment.php on line 29
+[18-Apr-2022 10:42:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_accordion() in /Applications/MAMP/htdocs/portfolio/experiment.php:34
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/experiment.php on line 34
+[18-Apr-2022 10:42:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_accordion() in /Applications/MAMP/htdocs/portfolio/experiment.php:34
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/experiment.php on line 34
+[18-Apr-2022 10:42:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_accordion() in /Applications/MAMP/htdocs/portfolio/experiment.php:34
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/experiment.php on line 34
+[18-Apr-2022 10:42:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_accordion() in /Applications/MAMP/htdocs/portfolio/experiment.php:34
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/experiment.php on line 34
+[18-Apr-2022 10:43:40 UTC] PHP Notice:  Undefined variable: mysqli in /Applications/MAMP/htdocs/portfolio/experiment.php on line 46
+[18-Apr-2022 10:43:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/experiment.php on line 46
+[18-Apr-2022 10:43:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/MAMP/htdocs/portfolio/experiment.php on line 47
+[19-Apr-2022 14:11:29 UTC] PHP Notice:  Undefined variable: sql in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:11:29 UTC] PHP Warning:  mysqli_query(): Empty query in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:11:41 UTC] PHP Notice:  Undefined variable: sql in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:11:41 UTC] PHP Warning:  mysqli_query(): Empty query in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:11:42 UTC] PHP Notice:  Undefined variable: sql in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:11:42 UTC] PHP Warning:  mysqli_query(): Empty query in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:11:43 UTC] PHP Notice:  Undefined variable: sql in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:11:43 UTC] PHP Warning:  mysqli_query(): Empty query in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:11:44 UTC] PHP Notice:  Undefined variable: sql in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:11:44 UTC] PHP Warning:  mysqli_query(): Empty query in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:14:22 UTC] PHP Notice:  Undefined variable: sql in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:14:22 UTC] PHP Warning:  mysqli_query(): Empty query in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:14:57 UTC] PHP Notice:  Undefined variable: sql in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:14:57 UTC] PHP Warning:  mysqli_query(): Empty query in /Applications/MAMP/htdocs/portfolio/experiment.php on line 61
+[19-Apr-2022 14:15:31 UTC] PHP Parse error:  syntax error, unexpected 'from' (T_STRING) in /Applications/MAMP/htdocs/portfolio/experiment.php on line 59
+[27-Apr-2022 19:41:46 UTC] PHP Warning:  include(../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:41:46 UTC] PHP Warning:  include(): Failed opening '../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:41:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:41:57 UTC] PHP Warning:  include(../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:41:57 UTC] PHP Warning:  include(): Failed opening '../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:41:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:41:58 UTC] PHP Warning:  include(../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:41:58 UTC] PHP Warning:  include(): Failed opening '../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:42:06 UTC] PHP Warning:  include(../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:06 UTC] PHP Warning:  include(): Failed opening '../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:42:10 UTC] PHP Warning:  include(../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:10 UTC] PHP Warning:  include(): Failed opening '../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:42:29 UTC] PHP Warning:  include(../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:29 UTC] PHP Warning:  include(): Failed opening '../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:42:30 UTC] PHP Warning:  include(../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:30 UTC] PHP Warning:  include(): Failed opening '../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:42:41 UTC] PHP Warning:  include(/inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:41 UTC] PHP Warning:  include(): Failed opening '/inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:41 UTC] PHP Warning:  include(/inc/projects.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 19:42:41 UTC] PHP Warning:  include(): Failed opening '/inc/projects.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 19:42:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:42:43 UTC] PHP Warning:  include(/inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:43 UTC] PHP Warning:  include(): Failed opening '/inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:42:43 UTC] PHP Warning:  include(/inc/projects.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 19:42:43 UTC] PHP Warning:  include(): Failed opening '/inc/projects.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 19:42:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:43:00 UTC] PHP Warning:  include(/inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:43:00 UTC] PHP Warning:  include(): Failed opening '/inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:43:00 UTC] PHP Warning:  include(/inc/projects.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 19:43:00 UTC] PHP Warning:  include(): Failed opening '/inc/projects.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 19:43:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 19:43:01 UTC] PHP Warning:  include(/inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:43:01 UTC] PHP Warning:  include(): Failed opening '/inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 19:43:01 UTC] PHP Warning:  include(/inc/projects.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 19:43:01 UTC] PHP Warning:  include(): Failed opening '/inc/projects.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 19:43:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 20:06:14 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/incinc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:06:14 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/incinc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:06:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 20:06:23 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/incinc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:06:23 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/incinc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:06:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 20:06:28 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/incinc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:06:28 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/incinc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:06:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/resume.php(102): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 20:06:43 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:06:43 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:06:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/resume.php(102): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 20:07:20 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:07:20 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:07:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/resume.php(102): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 20:07:21 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:07:21 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:07:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/resume.php(102): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 20:07:28 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:07:28 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:07:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/resume.php(102): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 20:07:42 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:07:42 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/inc../inc/functions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 4
+[27-Apr-2022 20:07:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/resume.php(102): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 52
+[27-Apr-2022 20:11:17 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/incinc/projects.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 20:11:17 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/incinc/projects.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 20:11:17 UTC] PHP Notice:  Undefined variable: projects in /Applications/MAMP/htdocs/portfolio/index.php on line 42
+[27-Apr-2022 20:11:17 UTC] PHP Notice:  Undefined variable: projects in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 28
+[27-Apr-2022 20:11:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 28
+[27-Apr-2022 20:12:00 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/incinc/projects.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 20:12:00 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/incinc/projects.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 20:12:00 UTC] PHP Notice:  Undefined variable: projects in /Applications/MAMP/htdocs/portfolio/index.php on line 42
+[27-Apr-2022 20:12:00 UTC] PHP Notice:  Undefined variable: projects in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 28
+[27-Apr-2022 20:12:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 28
+[27-Apr-2022 20:12:01 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/incinc/projects.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 20:12:01 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/incinc/projects.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 20:12:01 UTC] PHP Notice:  Undefined variable: projects in /Applications/MAMP/htdocs/portfolio/index.php on line 42
+[27-Apr-2022 20:12:01 UTC] PHP Notice:  Undefined variable: projects in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 28
+[27-Apr-2022 20:12:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 28
+[27-Apr-2022 20:12:03 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/portfolio/incinc/projects.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 20:12:03 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/portfolio/incinc/projects.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 5
+[27-Apr-2022 21:21:15 UTC] PHP Parse error:  syntax error, unexpected ';' in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 9
+[27-Apr-2022 21:22:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_url() in /Applications/MAMP/htdocs/portfolio/index.php:40
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/index.php on line 40
+[27-Apr-2022 21:23:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_url() in /Applications/MAMP/htdocs/portfolio/index.php:40
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/index.php on line 40
+[27-Apr-2022 21:23:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_url() in /Applications/MAMP/htdocs/portfolio/index.php:40
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/index.php on line 40
+[27-Apr-2022 21:23:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_url() in /Applications/MAMP/htdocs/portfolio/index.php:40
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/index.php on line 40
+[27-Apr-2022 21:23:34 UTC] PHP Fatal error:  Cannot redeclare endsWith() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4) in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[27-Apr-2022 21:23:53 UTC] PHP Fatal error:  Cannot redeclare endsWith() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4) in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[27-Apr-2022 21:23:54 UTC] PHP Fatal error:  Cannot redeclare endsWith() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4) in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[27-Apr-2022 21:23:55 UTC] PHP Fatal error:  Cannot redeclare endsWith() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4) in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[27-Apr-2022 21:24:03 UTC] PHP Fatal error:  Cannot redeclare endsWith() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4) in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[27-Apr-2022 21:24:25 UTC] PHP Fatal error:  Cannot redeclare endsWith() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4) in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[27-Apr-2022 21:24:26 UTC] PHP Fatal error:  Cannot redeclare endsWith() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4) in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[27-Apr-2022 21:24:32 UTC] PHP Fatal error:  Cannot redeclare endsWith() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4) in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[27-Apr-2022 21:24:34 UTC] PHP Fatal error:  Cannot redeclare endsWith() (previously declared in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4) in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[28-Apr-2022 20:52:11 UTC] PHP Warning:  substr() expects parameter 2 to be int, string given in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 3
+[28-Apr-2022 20:52:11 UTC] PHP Warning:  substr() expects parameter 2 to be int, string given in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 20
+[28-Apr-2022 20:52:12 UTC] PHP Warning:  substr() expects parameter 2 to be int, string given in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 3
+[28-Apr-2022 20:52:12 UTC] PHP Warning:  substr() expects parameter 2 to be int, string given in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 20
+[28-Apr-2022 20:53:11 UTC] PHP Warning:  substr() expects parameter 2 to be int, string given in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 3
+[28-Apr-2022 20:53:11 UTC] PHP Warning:  substr() expects parameter 2 to be int, string given in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 20
+[28-Apr-2022 20:53:14 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 3
+[05-May-2022 15:55:56 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/portfolio/experiment.php on line 75
+[05-May-2022 15:55:56 UTC] PHP Warning:  mysqli_stmt_init() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/experiment.php on line 75
+[05-May-2022 15:55:56 UTC] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /Applications/MAMP/htdocs/portfolio/experiment.php on line 77
+[05-May-2022 16:26:04 UTC] PHP Notice:  Undefined variable: mysqli in /Applications/MAMP/htdocs/portfolio/experiment.php on line 75
+[05-May-2022 16:26:04 UTC] PHP Warning:  mysqli_stmt_init() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/experiment.php on line 75
+[05-May-2022 16:26:04 UTC] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /Applications/MAMP/htdocs/portfolio/experiment.php on line 77
+[12-May-2022 15:44:08 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING) in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 14
+[29-Oct-2022 20:57:44 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:57:44 UTC] PHP Warning:  include(&lt;/div&gt;): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 22
+[29-Oct-2022 20:57:44 UTC] PHP Warning:  include(): Failed opening '&lt;/div&gt;' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 22
+[29-Oct-2022 20:59:13 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:13 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:30 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:30 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:31 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:31 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:32 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:32 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:32 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:32 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:33 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:33 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:44 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:44 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:45 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:45 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:46 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:46 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:46 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:46 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:47 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 20:59:47 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 21:00:08 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 21:00:08 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 21:00:08 UTC] PHP Notice:  Undefined index: img in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 21:00:08 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 21:01:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 21
+[29-Oct-2022 21:08:47 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:08:47 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:08:47 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:32 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:32 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:32 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:33 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:33 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:33 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:34 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:34 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:34 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:34 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:34 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:34 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:35 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:35 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:35 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:35 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:35 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:10:35 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:25 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:25 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:25 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:26 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:26 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:26 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:27 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:27 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:27 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:28 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:28 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:28 UTC] PHP Notice:  Undefined index: color in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:11:34 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Oct-2022 21:13:04 UTC] PHP Parse error:  syntax error, unexpected 'src' (T_STRING) in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 14
+[29-Oct-2022 21:13:05 UTC] PHP Parse error:  syntax error, unexpected 'src' (T_STRING) in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 14
+[29-Oct-2022 21:13:06 UTC] PHP Parse error:  syntax error, unexpected 'src' (T_STRING) in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 14
+[24-Mar-2023 20:43:18 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:43:18 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:53:25 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:53:25 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:53:25 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:53:25 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:53:25 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:53:25 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:53:25 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:53:25 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[24-Mar-2023 20:58:10 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 20:58:10 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 20:58:11 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 20:58:11 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 20:58:12 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 20:58:12 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 20:58:13 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 20:58:13 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 20:59:31 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 20:59:31 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:06:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:06:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:25 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:25 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:25 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:25 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:26 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:26 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:51 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:07:51 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:08:36 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:08:36 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:08:37 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:08:37 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:01 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:01 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:03 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:03 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:03 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:09:03 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:10:33 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:10:33 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:13 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:13 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:15 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:15 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:17 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:17 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:18 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:18 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:20 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:20 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:29 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:11:29 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:12:02 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:12:02 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:14:09 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:14:09 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:15:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:15:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:15:01 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:15:01 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:15:02 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:15:02 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:15:03 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:15:03 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:16:28 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:16:28 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:21:09 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:21:09 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:21 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:21 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:46 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:46 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:47 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:47 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:51 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:23:51 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:24:15 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:24:15 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:24:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:24:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:24:23 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:24:23 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:25:44 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:25:44 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:25:59 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:25:59 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:26:12 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:26:12 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:26:28 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:26:28 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:28:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:28:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:29:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:29:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:33:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:33:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:33:53 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:33:53 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:34:17 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:34:17 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:34:48 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:34:48 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:35:45 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:35:45 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:38:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:38:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:39:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:39:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:39:23 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:39:23 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:40:35 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:40:35 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:41:53 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:41:53 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:42:38 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:42:38 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:46:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:46:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:47:04 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:47:04 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:47:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:47:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:47:27 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:47:27 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:52:43 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:52:43 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:52:43 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:52:43 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:53:49 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:53:49 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:53:49 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:53:49 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:55:30 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:55:30 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:55:30 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 21:55:30 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:01:10 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:01:10 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:01:10 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:01:10 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:01:53 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:01:53 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:01:53 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:01:53 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:02:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:02:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:02:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:02:05 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:02:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:02:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:02:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:02:16 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:08:48 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:08:48 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:08:48 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:08:48 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:10:06 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:10:06 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:10:06 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[24-Mar-2023 22:10:06 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 12:03:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 12:03:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 12:03:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 12:03:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 12:06:14 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Mar-2023 12:06:14 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Mar-2023 12:06:14 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Mar-2023 12:06:14 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[29-Mar-2023 12:06:14 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 12:06:14 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 12:06:14 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 12:06:14 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 14:53:40 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 14:53:40 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 14:53:40 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[29-Mar-2023 14:53:40 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:16:04 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:16:04 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:16:04 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:16:04 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:16:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:16:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:16:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:16:56 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:17:38 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:17:38 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:17:38 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:17:38 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:18:35 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:18:35 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:18:35 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:18:35 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:18:45 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:18:45 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:18:45 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 12:18:45 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 13:40:26 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 13:40:26 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 13:40:26 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[02-Apr-2023 13:40:26 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[03-Apr-2023 08:20:22 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[03-Apr-2023 08:20:22 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[03-Apr-2023 08:20:22 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[03-Apr-2023 08:20:22 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[05-Apr-2023 17:01:54 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[05-Apr-2023 17:01:54 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[05-Apr-2023 17:01:54 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[05-Apr-2023 17:01:54 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[07-Apr-2023 15:06:49 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[07-Apr-2023 15:06:49 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[07-Apr-2023 15:06:49 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[07-Apr-2023 15:06:49 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:13:29 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:13:29 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:16:04 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:16:04 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:16:59 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:16:59 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:17:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:17:00 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:17:02 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:17:02 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:17:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:17:19 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:19:42 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:19:42 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:19:47 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 12:19:47 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 14:19:15 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 14:19:15 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 14:51:59 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[08-Apr-2023 14:51:59 UTC] PHP Notice:  Undefined index: href in /Applications/MAMP/htdocs/portfolio/inc/footer.php on line 31
+[14-Apr-2023 08:54:11 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[14-Apr-2023 08:54:11 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[14-Apr-2023 08:54:11 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[14-Apr-2023 08:54:11 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[14-Apr-2023 08:56:31 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[14-Apr-2023 08:56:31 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[14-Apr-2023 08:56:31 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[14-Apr-2023 08:56:31 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[17-Apr-2023 10:01:28 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 10:39:39 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[17-Apr-2023 10:39:39 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[17-Apr-2023 10:39:39 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[17-Apr-2023 10:39:39 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[17-Apr-2023 10:41:07 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[17-Apr-2023 10:41:07 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[17-Apr-2023 10:41:07 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[17-Apr-2023 10:41:07 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[17-Apr-2023 11:19:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 7
+[17-Apr-2023 12:17:36 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:17:36 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/index.php on line 11
+[17-Apr-2023 12:19:37 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 6
+[17-Apr-2023 12:19:37 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:19:38 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 6
+[17-Apr-2023 12:19:38 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:20:12 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 6
+[17-Apr-2023 12:20:12 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:20:15 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 6
+[17-Apr-2023 12:20:15 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:22:56 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:22:56 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/index.php on line 11
+[17-Apr-2023 12:22:59 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:22:59 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/index.php on line 11
+[17-Apr-2023 12:23:01 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:23:01 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/index.php on line 11
+[17-Apr-2023 12:23:11 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:23:35 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:23:36 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:23:47 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 12:23:47 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/index.php on line 11
+[17-Apr-2023 12:24:12 UTC] PHP Notice:  Undefined index: showAll in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 13:18:06 UTC] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 10
+[17-Apr-2023 13:19:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function baseUrl() in /Applications/MAMP/htdocs/portfolio/inc/header.php:10
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 10
+[17-Apr-2023 13:37:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:39:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:41:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:41:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:41:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endWith() in /Applications/MAMP/htdocs/portfolio/inc/header.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/index.php(5): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14
+[17-Apr-2023 13:49:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function endsWith(), 0 passed in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14 and exactly 2 expected in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/inc/header.php(14): endsWith()
+#1 /Applications/MAMP/htdocs/portfolio/index.php(5): include('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[17-Apr-2023 13:49:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function endsWith(), 0 passed in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 14 and exactly 2 expected in /Applications/MAMP/htdocs/portfolio/inc/functions.php:4
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/inc/header.php(14): endsWith()
+#1 /Applications/MAMP/htdocs/portfolio/index.php(5): include('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 4
+[17-Apr-2023 13:51:57 UTC] PHP Notice:  Undefined index: all in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 13:52:02 UTC] PHP Notice:  Undefined index: all in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 13:53:38 UTC] PHP Notice:  Undefined index: all in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 13:54:45 UTC] PHP Notice:  Undefined index: all in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 13:54:46 UTC] PHP Notice:  Undefined index: all in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 13:54:49 UTC] PHP Notice:  Undefined index: all in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 13:54:50 UTC] PHP Notice:  Undefined index: all in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 13:55:48 UTC] PHP Notice:  Undefined index: all in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:40:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getUrl() in /Applications/MAMP/htdocs/portfolio/inc/session.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/inc/header.php(2): include()
+#1 /Applications/MAMP/htdocs/portfolio/index.php(5): include('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/session.php on line 7
+[17-Apr-2023 15:40:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getUrl() in /Applications/MAMP/htdocs/portfolio/inc/session.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio/inc/header.php(2): include()
+#1 /Applications/MAMP/htdocs/portfolio/index.php(5): include('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio/inc/session.php on line 7
+[17-Apr-2023 15:42:46 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:42:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:43:20 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:43:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:43:25 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:43:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:05 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:06 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:07 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:43 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:43 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:44 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:46 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:44:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:12 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:13 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:14 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:33 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:34 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:34 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:34 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:45:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:46:17 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:46:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:46:25 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:46:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:46:30 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:46:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:47:02 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[17-Apr-2023 15:47:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/inc/projects.php on line 12
+[18-Apr-2023 08:58:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in /Applications/MAMP/htdocs/portfolio/inc/header.php on line 85
+[18-Apr-2023 09:20:00 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[18-Apr-2023 09:20:00 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[18-Apr-2023 09:20:00 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[18-Apr-2023 09:20:00 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[18-Apr-2023 13:41:56 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[18-Apr-2023 13:41:56 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[18-Apr-2023 13:41:56 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13
+[18-Apr-2023 13:41:56 UTC] PHP Notice:  Undefined index: background in /Applications/MAMP/htdocs/portfolio/inc/cards.php on line 13

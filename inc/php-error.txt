@@ -43,3 +43,37 @@ Stack trace:
   thrown in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 16
 [26-Feb-2022 12:16:34 UTC] PHP Notice:  Undefined variable: first_part in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 24
 [26-Feb-2022 15:53:47 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/portfolio/inc/functions.php on line 17
+[19-Apr-2022 14:22:38 UTC] PHP Warning:  include_once(inc/dbh.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:22:38 UTC] PHP Warning:  include_once(): Failed opening 'inc/dbh.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:22:38 UTC] PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 6
+[19-Apr-2022 14:22:38 UTC] PHP Notice:  Undefined index: content in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 7
+[19-Apr-2022 14:25:12 UTC] PHP Warning:  include_once(inc/dbh.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:25:12 UTC] PHP Warning:  include_once(): Failed opening 'inc/dbh.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:25:12 UTC] PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 6
+[19-Apr-2022 14:25:12 UTC] PHP Notice:  Undefined index: content in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 7
+[19-Apr-2022 14:27:07 UTC] PHP Warning:  include_once(inc/dbh.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:27:07 UTC] PHP Warning:  include_once(): Failed opening 'inc/dbh.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:27:07 UTC] PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 6
+[19-Apr-2022 14:27:07 UTC] PHP Notice:  Undefined index: content in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 7
+[19-Apr-2022 14:27:07 UTC] PHP Notice:  Undefined variable: mysqli in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12
+[19-Apr-2022 14:27:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12
+[19-Apr-2022 14:28:26 UTC] PHP Warning:  include_once(inc/dbh.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:28:26 UTC] PHP Warning:  include_once(): Failed opening 'inc/dbh.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:28:26 UTC] PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 6
+[19-Apr-2022 14:28:26 UTC] PHP Notice:  Undefined index: content in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 7
+[19-Apr-2022 14:28:26 UTC] PHP Notice:  Undefined variable: mysqli in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12
+[19-Apr-2022 14:28:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12
+[19-Apr-2022 14:33:26 UTC] PHP Warning:  include_once(inc/dbh.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:33:26 UTC] PHP Warning:  include_once(): Failed opening 'inc/dbh.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:33:26 UTC] PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 6
+[19-Apr-2022 14:33:26 UTC] PHP Notice:  Undefined index: content in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 7
+[19-Apr-2022 14:33:26 UTC] PHP Notice:  Undefined variable: mysqli in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12
+[19-Apr-2022 14:33:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12
+[19-Apr-2022 14:34:55 UTC] PHP Warning:  include_once(inc/dbh.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:34:55 UTC] PHP Warning:  include_once(): Failed opening 'inc/dbh.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:34:55 UTC] PHP Notice:  Undefined variable: mysqli in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12
+[19-Apr-2022 14:34:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12
+[19-Apr-2022 14:37:02 UTC] PHP Warning:  include_once(inc/dbh.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:37:02 UTC] PHP Warning:  include_once(): Failed opening 'inc/dbh.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 2
+[19-Apr-2022 14:37:02 UTC] PHP Notice:  Undefined variable: mysqli in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12
+[19-Apr-2022 14:37:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Applications/MAMP/htdocs/portfolio/inc/post.php on line 12

@@ -1,55 +1,109 @@
 .accordion {
 
-  &.js {
-    .accordion-section-header:hover {
-      color: $secondary-color;
-      text-decoration: underline;
-      cursor: pointer;
-      svg {
-        fill: $secondary-color;
-      }
-    }
-  }
-
   display: block;
   margin-bottom: 1rem;
-  border-bottom: 1px solid $white;
+  // border-bottom: 1px solid $white;
 
-  .accordion-section {
-    border-top: 1px solid $white;
-  }
+  &.js {
 
-  .accordion-section-header {
-    position: relative;
-    padding: 1.2rem 0;
-  }
+    .accordion-section {
+      background-color: $charcoal;
+      border-radius: $radius;
+      box-shadow: $shadow;
+      // border-top: 1px solid $white;
+      margin-bottom: 1rem;
+      overflow: visible;
 
-  h2, h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
+      &:last-child {
+        margin-bottom: 2rem;
+      }
+    }
+  
+    .accordion-section-header,
+    .accordion-section-body {
+      position: relative;
+      // padding: 1.2rem;
+      overflow: inherit;
+    }
+    .accordion-section-body {
+      padding: 1.3rem;
+      padding-top: 0;
+      padding-bottom: 2px;
+    }
+
+    h2, h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+    }
 
     button {
-
       all: inherit;
-      margin-right: 40px;
+      display: flex;
+      width: 100%;
+      padding: 1.3rem 3.9rem 1.3rem 1.3rem;
+      border-radius: $radius;
+
+      @include break(l) {
+        padding: 1.6rem 4.8rem 1.6rem 1.6rem;
+      }
+
       &[aria-expanded='true'] {
         .vert { display: none; }
       }
+      &[aria-expanded='true']:focus-visible {
+        margin-bottom: .5rem;
+      }
       &:focus-visible {
+        color: $black;
         background-color: $tertiary-color;
+        // text-decoration: underline;
+        outline: .2rem solid $black;
+        outline-offset: -.4rem;
+      }
+      &:hover {
+        color: $secondary-color;
         text-decoration: underline;
+        cursor: pointer;
+        svg {
+          fill: $secondary-color;
+        }
       }
 
+      $length: 1rem;
+      $width: .15rem;
+      $center: calc($length / 2 - ($width / 2));
       svg {
         fill: $white;
         position: absolute;
-        right: 0;
-        width: 1.3rem;
-        height: 1.3rem;
+        right: 1.2rem;
+        width: 1.2rem;
+        height: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include break(l) {
+          right: 1.6rem;
+        }
+      }
+      &:focus-visible svg {
+        fill: $black;
+      }
+      .vert {
+        height: $length;
+        width: $width;
+        x: $center;
+        y: 0;
+      }
+      .hori {
+        height: $width;
+        width: $length;
+        x: 0;
+        y: $center;
       }
     }
+    
   }
 
 }

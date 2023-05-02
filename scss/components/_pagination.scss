@@ -1,0 +1,64 @@
+.after-content {
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+    justify-content:center;
+
+    @include break(xs) {
+        flex-direction: column; 
+        width: 100%;   
+    }
+
+    #prev, #next {
+        display: inline-block;
+        padding: 10px;
+        background-color: $charcoal;
+        border-radius: $radius;
+        box-shadow: $shadow-s;
+        // white-space: nowrap;
+        text-align: center;
+        margin-top: 10px;
+        @include break(xs) {
+            width: 100%;
+        }
+        @include break(s) {
+            padding: 20px;
+        }
+
+        &:hover {
+            box-shadow: $shadow;
+        }
+        &:focus-visible {
+            color: $black;
+            background-color: $tertiary-color;
+        }
+        &::before,
+        &::after {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 1.2em;
+            vertical-align: middle;
+        }
+    }
+    #prev {
+        margin-right: .5rem;
+        @include break(xs) {
+            margin-right: 0 !important;
+        }
+        &::before {
+            content: "<";
+            margin-right: .5rem;
+        }
+    }
+    #next {
+        margin-left: .5rem;
+        @include break(xs) {
+            margin-left: 0 !important;
+        }
+        &::after {
+            content: ">";
+            margin-left: .5rem;
+        }
+    }
+
+}

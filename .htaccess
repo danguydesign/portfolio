@@ -17,3 +17,9 @@ php_value log_errors 1
 
 # log file for errors
 php_value error_log php-error.txt
+
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

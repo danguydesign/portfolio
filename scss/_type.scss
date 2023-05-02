@@ -17,6 +17,7 @@ html {
 
 .sans {font-family: $sans-serif !important;}
 .serif {font-family: $serif !important;}
+.monospace {font-family: monospace !important;}
 
 .coral-text {color: $primary-color;}
 .blue-text {color: $secondary-color;}
@@ -222,6 +223,75 @@ main a p {
   }
 }
 
+.link,
+.back-link {
+  color: $secondary-color;
+  display: inline-block;
+  line-height: 1.4rem;
+  text-decoration: underline;
+  border: 5px solid transparent;
+
+  $width: 20px;
+  $height: 2px;
+  $center: calc($width / 2 - ($height / 2));
+
+  &:hover {
+    color: $tertiary-color;
+    svg {
+      fill: $tertiary-color;
+    }  
+  }
+  &:focus-visible {
+    border: 5px solid $tertiary-color;
+    border-radius: 10px;
+  }
+
+  svg {
+    fill: $secondary-color;
+    width: 1.2rem;
+    height: 1.4rem;
+    margin-right: .5rem;
+    align-items: center;
+    vertical-align: middle;
+  }
+  &:hover svg {
+    fill: $tertiary-color;
+    .arrow-line {
+      width: 50px;
+    }
+  }
+  &:focus-visible svg {
+    fill: $black;
+  }
+  .arrow-top {
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: rotate(45deg);
+    display: block;
+    height: $height;
+    width: 10px;
+    y: 11;
+  }
+  .arrow-bottom {
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: rotate(-45deg);
+    display: block;
+    height: $height;
+    width: 10px;
+    y: 5;
+  }
+  .arrow-line {
+    height: $height;
+    width: $width;
+    display: block;
+    x: 2;
+    y: 8;
+  }
+}
+
+
+
 .col-third ul li a:hover {
   text-decoration: underline;
 }
@@ -304,4 +374,71 @@ button.form-button,
     background-color: $tertiary-color;
     outline: 3px solid $secondary-color !important;
   }
+}
+
+
+// Table
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 0 0 25px;
+  width: 100%;
+
+  thead tr {
+    color: $white;
+    text-align: left;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid $dark-grey;
+    position: relative;
+  }
+
+  tr {
+    display: block;
+    padding: 6px 0;
+    @include break(s) {
+      display: table-row;
+      padding: 0;
+    }
+  }
+
+  th,
+  td {
+    display: block;
+    text-align: left;
+    padding: 6px 0;
+
+    code {
+      font-family: monospace;
+      font-weight: 400;
+    }
+
+    @include break(s) {
+      display: table-cell;
+      padding: 15px 0;
+    }
+  }
+
+}
+
+.color code {
+  padding-left: 80px;
+  @include break(s) {
+    padding: 0;
+  }
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: none;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: 600;
+  color: #009879;
+}
+
+
+.fordandguy {
+  font-family: 'Mukta', Helvetica, Verdana, sans-serif;
 }

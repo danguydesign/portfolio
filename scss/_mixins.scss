@@ -1,6 +1,9 @@
 // Media queries
 @mixin break($point) {
-  @if $point == s {
+  @if $point == xs {
+    @media (max-width: 320px) { @content; }
+  }
+  @else if $point == s {
     @media (min-width: 768px) { @content; }
   }
   @else if $point == m {
@@ -14,9 +17,6 @@
   }
   @else if $point == xxl {
     @media (min-width: 2000px)  { @content; }
-  }
-  @else if $point == xs {
-    @media (max-width: 300px) { @content; }
   }
 }
 

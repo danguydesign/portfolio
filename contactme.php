@@ -1,7 +1,8 @@
 <?php
 $page = "contact";
 $title = "Contact Me";
-$metaD = "";
+$metaD = "";$backLink = true;
+
 include 'inc/header.php';
 
 // define variables and set to empty values
@@ -111,43 +112,43 @@ function test_input($data) {
         </div>
       </section>
 
-      <section class="col-twothird">
+      <div class="col-twothird">
         <form class="text-box padding max-width" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
           <div class="field<?php echo (!empty($errors)) ? ' field-error' : ''; ?>">
             <label id="name-label" for="name">Name</label>
             <?php echo (!empty($errors['nameErr']['err'])) ? $errors['nameErr']['err'] : ''; ?>
-            <input id="name" name="name" type="text" value="<?php echo $name; ?>" autocomplete="name">
+            <input id="name" name="name" type="text" value="<?php echo htmlspecialchars($name); ?>" autocomplete="name">
           </div>
           <div class="field<?php echo (!empty($errors)) ? ' field-error' : ''; ?>">
             <label id="email-label" for="email">Email address</label>
             <?php echo (!empty($errors['emailErr']['err'])) ? $errors['emailErr']['err'] : ''; ?>
-            <input id="email" name="email" type="email" value="<?php echo $email; ?>" autocomplete="email">
+            <input id="email" name="email" type="email" value="<?php echo htmlspecialchars($email); ?>" autocomplete="email">
           </div>
           <div class="field">
             <label for="subject">Subject</label>
-            <input id="subject" name="subject" type="text" value="<?php echo $subject; ?>">
+            <input id="subject" name="subject" type="text" value="<?php echo htmlspecialchars($subject); ?>">
           </div>
           <div class="field<?php echo (!empty($errors)) ? ' field-error' : ''; ?>">
             <label id="message-label" for="message">Message</label>
             <?php echo (!empty($errors['messageErr']['err'])) ? $errors['messageErr']['err'] : ''; ?>
-            <textarea id="message" name="message" type="text" rows="5"><?php echo $message; ?></textarea>
+            <textarea id="message" name="message" type="text" rows="5"><?php echo htmlspecialchars($message); ?></textarea>
           </div>
 
           <button type="submit" name="submit" class="form-button">Send Email</button>
         </form>
-      </section>
+      </div>
     </div>
 
   </section>
 
-  <footer class="container">
-    <section class="col-third align-bottom">
+  <section class="container padding-responsive">
+    <div class="col-third align-bottom">
       <div class="text-box padding-1024">
         <h2 class="heading-4">Social links</h2>
         <p><a href="http://linkedin.com/in/daniel-guy-120621b5/">LinkedIn</a></p>
       </div>
-    </section>
-  </footer>
+    </div>
+  </section>
 
 <?php
   include 'inc/footer.php';

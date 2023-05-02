@@ -57,6 +57,18 @@ video {
   overflow: hidden;
 }
 
+
+/* ---------- Before content ---------- */
+
+.before-content {
+  display: block;
+  padding: 80px 20px 20px;
+
+  @include break(s) {
+    padding: 120px 40px 40px;
+  }
+}
+
 /* ---------- Header ---------- */
 
 .header {
@@ -79,22 +91,18 @@ video {
   }
 
   @include break(m) {
-    min-height: 100vh;
+    min-height: 80vh;
   }
 
   &-small {
-    min-height: 45vw;
+    min-height: 25vw;
+    padding: 20px;
     @include break(s) {
-      min-height: 40vw;
-    }
-    @include break(m) {
-      min-height: 35vw;
-    }
-    @include break(l) {
-      min-height: 30vw;
+      min-height: 20vw;
+      padding: 40px;
     }
     @include break(xl) {
-      min-height: 28vw;
+      min-height: 18vw;
     }
   }
 
@@ -102,6 +110,10 @@ video {
 
 
 /* ---------- Containers ---------- */
+
+#content {
+  z-index: 0;
+}
 
 main {
   width: 100%;
@@ -472,11 +484,11 @@ hr {
   height: 1px;
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid $white;
+  border-top: 1px solid $dark-grey;
 }
 
 .border-right {
-  border-right: 1px solid $white;
+  border-right: 1px solid $dark-grey;
 }
 
 .mobile-hide {
@@ -515,7 +527,7 @@ hr {
 
   .x-img-container {
     display: inline-block;
-    background-color: $black;
+    background-color: $light-black;
     box-shadow: $shadow;
     width: 80vw;
     max-width: 400px;
@@ -527,13 +539,18 @@ hr {
       width: calc(50% - 20px);
       margin-right: 20px;
       margin-bottom: 20px;
-      background-color: $white;
       max-width: none;
     }
-
   }
 
-  .x-img-portrait {
+  .x-img-container p {
+    width: 100%;
+    overflow: hidden;
+    white-space: break-spaces;
+  }
+
+  .x-img-portrait,
+  .x-img-phone {
     display: inline-block;
     width: 55vw;
     max-width: 400px;
@@ -550,9 +567,40 @@ hr {
     }
   }
 
+  .x-img-phone {
+    padding: 12.5% 4%;
+    background: url("../img/phone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    box-shadow: none;
+    @include break(s) {
+      padding: 5% 1.6%;
+    }
+  }
+
   .x-img {
     display: block;
     width: 100%;
+  }
+}
+
+.x-scroll-3 {
+  flex-wrap: nowrap;
+
+  .x-img-container {
+    @include break(s) {
+      width: calc(33.33% - 20px);
+    }
+  }
+}
+.x-scroll-4 {
+  flex-wrap: nowrap;
+
+  .x-img-container {
+    @include break(s) {
+      width: calc(25% - 20px);
+    }
   }
 }
 
@@ -640,4 +688,28 @@ hr {
     padding: 2% 0;
   }
 
+}
+
+
+// Colors
+
+.app-swatch {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgba(0,0,0,0);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  vertical-align: middle;
+
+  @include break(s) {
+    position: static;
+    margin-right: 12px;
+  }
+}
+
+.app-content pre, .app-content code {
+  font-family: monospace,monospace;
+  font-size: 1em;
 }

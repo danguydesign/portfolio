@@ -3,8 +3,15 @@ $page = "blog";
 $title = "Dan Guy Design | Blog";
 $metaD = "";
 $h1 = "Stuff I've written";
+$backLink = true;
 
 $blogs = [];
+$blogs[] = [
+  "href" => "https://danguydesign.medium.com/what-designers-can-learn-from-ethical-philosophy-f1df3528e811",
+  "date" => "7 April 2022",
+  "title" => "What designers can learn from ethical philosophy",
+  "text" => "In this article, I will explore the three main theories of normative ethics and show how we can bring ethics into our practice as designers."
+];
 $blogs[] = [
   "href" => "https://danguydesign.medium.com/good-design-vs-ethical-design-efee292ae448",
   "date" => "27 September 2021",

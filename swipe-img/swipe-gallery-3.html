@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style media="screen">
+			* {
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+			}
+
+			.woocommerce-product-gallery {
+				display: block;
+				overflow-x: scroll;
+				scroll-behavior: smooth;
+			}
+
+			.woocommerce-product-gallery__wrapper {
+				display: flex;
+				width: 100%;
+				padding: 0;
+				margin: 0;
+				cursor: grab;
+		    -webkit-transform: translateX(0);
+		    -moz-transform: translateX(0);
+		    -ms-transform: translateX(0);
+		    -o-transform: translateX(0);
+				transform: translateX(0);
+		    -webkit-transition: -webkit-transform 0.3s ease-out;
+		    -moz-transition: transform 0.3s ease-out;
+		    -o-transition: transform 0.3s ease-out;
+		    transition: transform 0.3s ease-out;
+			}
+
+			.woocommerce-product-gallery__image {
+				width: 100%;
+				user-select: none;
+			}
+
+			.woocommerce-product-gallery__image img {
+				width: 100vw;
+			}
+
+			.grabbing {
+				user-select: grabbing;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 1; transition: opacity 0.25s ease-in-out 0s;">
+			<figure class="woocommerce-product-gallery__wrapper">
+				<div class="woocommerce-product-gallery__image">
+					<a>
+						<img src="./1.jpg">
+					</a>
+				</div>
+				<div class="woocommerce-product-gallery__image">
+					<a>
+						<img src="./2.jpg">
+					</a>
+				</div>
+				<div class="woocommerce-product-gallery__image">
+					<a>
+						<img src="./3.jpg">
+					</a>
+				</div>
+				<div class="woocommerce-product-gallery__image">
+					<a>
+						<img src="./4.jpg">
+					</a>
+				</div>
+				<div class="woocommerce-product-gallery__image">
+					<a>
+						<img src="./5.jpg">
+					</a>
+				</div>
+				<div class="woocommerce-product-gallery__image">
+					<a>
+						<img src="./6.jpg">
+					</a>
+				</div>
+			</figure>
+		</div>
+
+		<script type="text/javascript">
+
+		function mobileGal() {
+			const sliderCntr = document.querySelector('.woocommerce-product-gallery'),
+						slider = document.querySelector('.woocommerce-product-gallery__wrapper'),
+						slides = Array.from(document.querySelectorAll('.woocommerce-product-gallery__image'))
+
+			let isDragging = false,
+					startPos = 0,
+					currentTranslate = 0,
+					prevTranslate = 0,
+					animationID,
+					currentIndex = 0
+
+			// Change from scroll to hidden when js is loaded
+			sliderCntr.style.overflow = 'hidden'
+
+			// event listeners
+			slides.forEach((slide, index) => {
+				const slideImage = slide.querySelector('img')
+				// disable default image drag
+				slideImage.addEventListener('dragstart', (e) => e.preventDefault())
+				// touch events
+				slide.addEventListener('touchstart', touchStart(index))
+				slide.addEventListener('touchend', touchEnd)
+				slide.addEventListener('touchmove', touchMove)
+				// mouse events
+				slide.addEventListener('mousedown', touchStart(index))
+				slide.addEventListener('mouseup', touchEnd)
+				slide.addEventListener('mousemove', touchMove)
+				slide.addEventListener('mouseleave', touchEnd)
+			})
+
+			// make responsive to viewport changes
+			window.addEventListener('resize', setPositionByIndex)
+
+			// prevent menu popup on long press
+			slider.oncontextmenu = function (event) {
+				event.preventDefault()
+				event.stopPropagation()
+				return false
+			}
+
+			function getPositionX(event) {
+				return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX
+			}
+
+			// use a HOF so we have index in a closure
+			function touchStart(index) {
+				return function (event) {
+					currentIndex = index
+					startPos = getPositionX(event)
+					isDragging = true
+					animationID = requestAnimationFrame(animation)
+					slider.classList.add('grabbing')
+				}
+			}
+
+			function touchMove(event) {
+				if (isDragging) {
+					const currentPosition = getPositionX(event)
+					currentTranslate = prevTranslate + currentPosition - startPos
+				}
+			}
+
+			function touchEnd() {
+				cancelAnimationFrame(animationID)
+				isDragging = false
+				const movedBy = currentTranslate - prevTranslate
+
+				// if moved enough negative then snap to next slide if there is one
+				if (movedBy < -80 && currentIndex < slides.length - 1) currentIndex += 1
+
+				// if moved enough positive then snap to previous slide if there is one
+				if (movedBy > 80  && currentIndex > 0) currentIndex -= 1
+
+				setPositionByIndex()
+
+				slider.classList.remove('grabbing')
+			}
+
+			function animation() {
+				setSliderPosition()
+				if (isDragging) requestAnimationFrame(animation)
+			}
+
+			function setPositionByIndex() {
+				currentTranslate = currentIndex * -window.innerWidth
+				prevTranslate = currentTranslate
+				setSliderPosition()
+			}
+
+			function setSliderPosition() {
+				slider.style.webkitTransform = `translateX(${currentTranslate}px)`
+				slider.style.MozTransform = `translateX(${currentTranslate}px)`
+				slider.style.msTransform = `translateX(${currentTranslate}px)`
+				slider.style.OTransform = `translateX(${currentTranslate}px)`
+				slider.style.transform = `translateX(${currentTranslate}px)`
+				slider.scrollLeft = 0
+			}
+
+		}
+
+		if (window.screen.width < 769) {
+			mobileGal()
+			console.log(window.innerWidth);
+		}
+
+		function loadMobileGal() {
+			if (window.innerWidth < 769) {
+				mobileGal()
+				console.log(window.innerWidth);
+			}
+		}
+
+		loadMobileGal()
+
+		window.addEventListener('resize', loadMobileGal);
+
+
+
+		</script>
+	</body>
+</html>

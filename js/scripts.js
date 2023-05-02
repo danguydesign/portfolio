@@ -220,3 +220,181 @@ Array.prototype.forEach.call(cards, card => {
     }
   })
 })()
+
+
+/* ----- Slider ----- */
+
+'use strict';
+
+(function () {
+  /* touch detection */
+  window.addEventListener('touchstart', function touched() {
+    document.body.classList.add('touch');
+    window.removeEventListener('touchstart', touched, false);
+  }, false);
+
+  /* lazy loading and button controls */
+  const gallery = document.querySelector('[aria-label="gallery"]');
+  const slides = gallery.querySelectorAll('li');
+  const instructions = document.getElementById('instructions');
+
+  Array.prototype.forEach.call(slides, function (slide) {
+    slide.querySelector('a').setAttribute('tabindex', '-1');
+  });
+
+  const observerSettings = {
+    root: gallery,
+    rootMargin: '-10px'
+  };
+
+  if ('IntersectionObserver' in window) {
+    const scrollIt = function scrollIt(slideToShow) {
+      const galWidth = gallery.scrollWidth;
+      const noOfSlides = slides.length;
+      const scrollPos = Array.prototype.indexOf.call(slides, slideToShow) * (galWidth / noOfSlides);
+      gallery.scrollLeft = scrollPos;
+      //console.log(scrollPos);
+    };
+
+    var showSlide = function showSlide(dir, slides) {
+      let visible = document.querySelectorAll('[aria-label="gallery"] .visible');
+      let i = dir === 'previous' ? 0 : 1;
+
+      if (visible.length > 1) {
+        scrollIt(visible[i]);
+      } else {
+        let newSlide = i === 0 ? visible[0].previousElementSibling : visible[0].nextElementSibling;
+        if (newSlide) {
+          scrollIt(newSlide);
+        }
+      }
+    };
+
+    const callback = function callback(slides, observer) {
+      Array.prototype.forEach.call(slides, function (entry) {
+        entry.target.classList.remove('visible');
+        let link = entry.target.querySelector('a');
+        link.setAttribute('tabindex', '-1');
+        if (!entry.intersectionRatio > 0) {
+          return;
+        }
+        let img = entry.target.querySelector('img');
+        //console.log(img);
+        if (img.dataset.src) {
+          img.setAttribute('src', img.dataset.src);
+          img.removeAttribute('data-src');
+        }
+        entry.target.classList.add('visible');
+        link.removeAttribute('tabindex', '-1');
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, observerSettings);
+    Array.prototype.forEach.call(slides, function (t) {
+      return observer.observe(t);
+    });
+
+    const controls = document.createElement('ul');
+    controls.setAttribute('aria-label', 'gallery controls');
+    controls.innerHTML = '\n    <li><button type="button" id="previous" aria-label="previous">\n      <svg aria-hidden="true" focusable="false"><use xlink:href="#arrow-left"></use></svg>\n    </button></li>\n    <li><button type="button" id="next" aria-label="next">\n      <svg aria-hidden="true" focusable="false"><use xlink:href="#arrow-right"/></svg>\n    </button></li>\n    ';
+    instructions.parentNode.insertBefore(controls, instructions.nextElementSibling);
+    instructions.parentNode.style.padding = '0 3rem';
+
+    controls.addEventListener('click', function (e) {
+      showSlide(e.target.closest('button').id, slides);
+    });
+
+    /* ----- ADDED BY ME ----- */
+
+    const images = gallery.querySelectorAll('img');
+    const links = gallery.querySelectorAll('a');
+    let isDragging = false;
+    let startPos, currentPos, endPos = 0;
+    let index = 1;
+
+    // disable default image drag
+    images.forEach(element => element.setAttribute("draggable", false));
+    links.forEach(element => element.addEventListener("click",function(e){
+      //prevent event action
+      e.preventDefault();
+    }));
+
+    function getPositionX(event) {
+				return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+		}
+
+    // function getSlideIndex() {
+    //   // Convert slides NodeList to an array
+    //   const slidesArr = Array.prototype.slice.call(slides);
+    //   let visible = document.querySelectorAll('[aria-label="gallery"] .visible')[0];
+    //   let child = visible;
+    //   let parent = child.parentNode;
+    //   let index = Array.prototype.indexOf.call(parent.children, child);
+    //   console.log(index);
+    //   return index;
+    // }
+
+    function touchStart() {
+      return function (event) {
+        startPos = getPositionX(event);
+        prevScroll = gallery.scrollLeft;
+        isDragging = true;
+        gallery.classList.add('grabbing');
+        console.log('startPos is ' + startPos);
+        console.log(prevScroll);
+      }
+    }
+
+    function touchMove(event) {
+      return function (event) {
+  			if (isDragging) {
+          let currentPos = getPositionX(event);
+          gallery.scrollLeft = prevScroll + startPos - currentPos;
+  			}
+      }
+		}
+
+    function touchEnd() {
+      return function (event) {
+        isDragging = false;
+        let endPos = getPositionX(event);
+        gallery.classList.remove('grabbing');
+        let movedBy = endPos - startPos;
+        console.log('moved by ' + movedBy);
+        console.log('endPos is ' + endPos);
+
+        if (movedBy < -50) {
+          // if moved enough negative then snap to next slide if there is one
+          showSlide(next, slides);
+        } else if (movedBy > 50) {
+          // if moved enough positive then snap to previous slide if there is one
+          console.log('previous');
+          showSlide(previous, slides);
+        } else {
+          gallery.scrollLeft = prevScroll;
+        }
+
+      }
+    }
+
+    slides.forEach((slide, index) => {
+      // touch events
+      slide.addEventListener('touchstart', touchStart());
+      slide.addEventListener('touchend', touchEnd());
+      slide.addEventListener('touchmove', touchMove());
+      // mouse events
+      slide.addEventListener('mousedown', touchStart());
+      slide.addEventListener('mouseup', touchEnd());
+      slide.addEventListener('mousemove', touchMove());
+      //gallery.addEventListener('mouseleave', touchEnd());
+    })
+
+    /* ----- END ----- */
+
+  } else {
+    Array.prototype.forEach.call(slides, function (s) {
+      var img = s.querySelector('img');
+      img.setAttribute('src', img.getAttribute('data-src'));
+    });
+  }
+})();

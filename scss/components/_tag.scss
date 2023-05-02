@@ -1,0 +1,13 @@
+.tag {
+    color: $black;
+    background-color: $tertiary-color;
+    padding: 3px 10px;
+    margin-bottom: .7rem;
+    border-radius: 5px;
+    display: inline-block;
+    align-self: flex-start;
+    font-size: 14px;
+    @include break(m) {
+        font-size: 16px;
+    }
+}
